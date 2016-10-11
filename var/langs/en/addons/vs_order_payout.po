@@ -1,0 +1,37 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::vs_order_payout"
+msgid "Order Payout"
+msgstr "Order Payout"
+
+msgctxt "LanguageName"
+msgid "Localized language name"
+msgstr "English"
+
+msgctxt "Addons::description::vs_order_payout"
+msgid "By this Addon admin can save order payout info."
+msgstr "By this Addon admin can save order payout info."
+
+msgctxt "Languages::please_enter_intiger_value_in_payout_amount"
+msgid "Please Enter Intiger Value In Payout Amount"
+msgstr "Please Enter Intiger Value In Payout Amount"
+
+msgctxt "Languages::payouts"
+msgid "Payouts"
+msgstr "Payouts"
+
+msgctxt "Languages::payout_done"
+msgid "Payout Done"
+msgstr "Payout Done"
+
+msgctxt "Languages::payout_amount"
+msgid "Payout Amount"
+msgstr "Payout Amount"
+
+msgctxt "Languages::payout_date"
+msgid "Payout Date"
+msgstr "Payout Date"

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>vs_order_payout</id>
+    <name>Order Payout</name>
+    <version>1.0</version>
+    <priority>429416</priority>
+    <position>0</position>
+    <supplier>csuser24</supplier>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <default_language>en</default_language>
+     <queries>
+        <item>DROP TABLE IF EXISTS ?:vs_order_payout</item>
+        <item>
+                CREATE TABLE IF NOT EXISTS `?:vs_order_payout` (
+                  `order_id` int(11) NOT NULL,
+                  `payout_amount` int(11) NOT NULL DEFAULT 0,
+                  `payout_done` char(1) NOT NULL DEFAULT 'N',
+                  `payout_date` int(10) NOT NULL,
+                  `transaction_id` varchar(255) NOT NULL,
+                  PRIMARY KEY (`order_id`)
+                ) AUTO_INCREMENT=1 ;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:vs_order_payout</item>
+    </queries>
+</addon>
